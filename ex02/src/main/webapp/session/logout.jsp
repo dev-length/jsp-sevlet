@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: student
   Date: 2024-07-29
-  Time: 오후 1:58
+  Time: 오후 3:24
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,10 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>include 지시어 태그 실습</h1>
-    내용 수정 중입니다. 다음줄에 삽입이 됩니다. <br>
-
-<%--    copyright.jsp 파일을 해당 위치에 삽입함, include 키워드 사용--%>
-    <%@include file="copyright.jsp"%>
+<%--    사용자 세션을 종료시킨후 다시 로그인 화면으로 리디렉트--%>
+    <%
+        session.invalidate();
+        response.sendRedirect("loginForm.html");
+    %>
 </body>
 </html>

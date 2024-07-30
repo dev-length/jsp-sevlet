@@ -3,20 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+<!--    helloServlet이 어떤 클래스인지 찾아주는 설정-->
 <!--    <servlet>-->
-<!--        <servlet-name>helloSelvlet</servlet-name>-->
+<!--        <servlet-name>helloServlet</servlet-name>-->
 <!--        <servlet-class>org.scoula.ex02.HelloServlet</servlet-class>-->
 <!--    </servlet>-->
+<!--    helloServlet의 url 매핑 설정-->
 <!--    <servlet-mapping>-->
-<!--        <servlet-name>helloSelvlet</servlet-name>-->
+<!--        <servlet-name>helloServlet</servlet-name>-->
 <!--        <url-pattern>/hello-servlet</url-pattern>-->
-<!--    </servlet-mapping>-->
-<!--    <servlet>-->
-<!--        <servlet-name>jsp</servlet-name>-->
-<!--        <load-on-startup>3</load-on-startup>-->
-<!--    </servlet>-->
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>jsp</servlet-name>-->
-<!--        <url-pattern>*.jsp</url-pattern>-->
 <!--    </servlet-mapping>-->
 </web-app>
